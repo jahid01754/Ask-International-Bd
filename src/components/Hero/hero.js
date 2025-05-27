@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <div className="custom-container mx-auto">
-        <div className="">
+        <div className="space-y-10">
           <div className="flex items-center justify-center w-full">
             <Image
               src={"/Slogan.png"}
