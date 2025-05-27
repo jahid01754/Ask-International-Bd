@@ -52,12 +52,12 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-nav w-full h-20  flex items-center justify-center ">
-        <ul className="hidden md:flex items-center justify-center gap-10 ">
+        <ul className="hidden md:flex items-center justify-center gap-7 lg:gap-10 ">
           {navItems.map((navItem, navItemIndex) => (
             <li key={navItemIndex} className="group relative">
               <Link
                 href={navItem.href}
-                className="font-ovo text-slate-400 hover:text-slate-200 transition duration-200 text-xl"
+                className="font-ovo text-slate-400 hover:text-slate-200 transition duration-200 text-md lg:text-xl "
               >
                 {navItem.name}
               </Link>

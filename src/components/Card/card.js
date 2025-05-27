@@ -105,13 +105,9 @@ export default function Card() {
                         {item.title}
                       </p>
                       <div>
-                        <p className="mt-14 mb-6 flex flex-row justify-start items-center gap-4  font-semibold group font-ovo">
-                          View Details{" "}
-                          <span className="group-hover:translate-x-2 transition-transform duration-500">
-                            {" "}
-                            <FaArrowRightLong />
-                          </span>
-                        </p>
+                        <button className="mt-14 mb-6 flex flex-row justify-start items-center gap-4  font-semibold group font-ovo bg-nav text-slate-400 hover:text-slate-200 px-4 py-2 rounded-lg transition duration-200">
+                          View Details
+                        </button>
                       </div>
                     </div>
                   </div>
